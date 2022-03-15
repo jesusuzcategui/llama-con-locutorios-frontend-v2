@@ -10,10 +10,10 @@ const HeaderApp = () => {
     return (
         <>
             <Box sx={{ flexGrow: 1 }}>
-                <AppBar color='secondary' position="static">
+                <AppBar color='primary' position="static">
                     <Toolbar>
                         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                            Jesús Uzcátegui
+                            Llama con locutorios
                         </Typography>
                         <Button component={RouterLink} to="/" color="inherit">Home</Button>
                         <Button component={RouterLink} to="/about" color="inherit">About</Button>
